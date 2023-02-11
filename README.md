@@ -21,7 +21,7 @@ Netlify is configured for continuous deployment.
 
 ---
 
-# Internationalisation
+# Internationalisations
 
 The website uses [gatsby-plugin-react-i18next](https://github.com/microapps/gatsby-plugin-react-i18next) plugin to handle translations. This is based on [react-i18next](https://react.i18next.com/).
 
