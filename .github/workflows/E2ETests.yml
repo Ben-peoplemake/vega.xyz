@@ -24,9 +24,10 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
-        uses: cypress-io/github-action@v5
+        uses: cypress-io/github-action@v5.2.0
         with:
-          wait-on: "https://vega.xyz"
+          wait-on: "https://deploy-preview-${{github.event.pull_request.number}}--vega.netlify.app"
+          config: baseURL="https://deploy-preview-${{github.event.pull_request.number}}--vega.netlify.app"
           #record: true
          # parallel: true
         env:
