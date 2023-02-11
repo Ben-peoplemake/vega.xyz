@@ -27,7 +27,7 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           wait-on: "https://deploy-preview-${{github.event.pull_request.number}}--vega.netlify.app"
-          config: baseURL="https://deploy-preview-${{github.event.pull_request.number}}--vega.netlify.app"
+          config: baseUrl="https://deploy-preview-${{github.event.pull_request.number}}--vega.netlify.app"
           record: true
          # parallel: true
         env:
