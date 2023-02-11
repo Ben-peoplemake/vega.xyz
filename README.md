@@ -8,7 +8,7 @@ Welcome to the repo for the new [vega.xyz](https://vega.xyz) website.
 
 [Node.js](https://nodejs.org/) | [Yarn](https://yarnpkg.com/) | [Gatsby](https://www.gatsbyjs.com/) | [React](https://reactjs.org/) | [Tailwind](https://tailwindcss.com/) | [Netlify](https://www.netlify.com/)
 
-## Development
+## Developments
 
 ```
 yarn install
