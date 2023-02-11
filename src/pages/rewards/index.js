@@ -49,7 +49,7 @@ const RewardsPage = ({ data }) => {
                 </div>
                 <div className="font-not-glitched bg-moshed bg-clip-text text-[1.2rem] lg:text-[1.5rem]">
                   {dataApy.totalRewardsThisEpoch}{' '}
-                  <Trans t={t}>$VEGA paid out this epoch</Trans>
+                  <Trans t={t}>$VEGA paid out this sepoch</Trans>
                 </div>
               </div>
             )}
