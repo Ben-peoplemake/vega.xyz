@@ -28,10 +28,10 @@ jobs:
         with:
           wait-on: "https://deploy-preview-${{github.event.pull_request.number}}--vega.netlify.app"
           config: baseURL="https://deploy-preview-${{github.event.pull_request.number}}--vega.netlify.app"
-          #record: true
+          record: true
          # parallel: true
         env:
-          #CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          CYPRESS_RECORD_KEY: fafc7322-6ef8-4798-b2d1-55a762b1ebec
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
